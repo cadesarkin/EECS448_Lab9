@@ -27,7 +27,7 @@ $totalPrice1 = $num1 * 3.49;
 $totalPrice2 = $num2 * 2.99;
 $totalPrice3 = $num3 * 4.49;
 
-echo "<h2>Welcome to Chickfila</h2><br>";
+echo "<h2>Thank you for shopping at Chickfila</h2><br>";
 echo "<p>Username (Email): " . $user . "<br>";
 echo "Password: " . $pass . "</p><br><br>";
 echo '<link href="style.css" rel="stylesheet" type="text/css"/>';

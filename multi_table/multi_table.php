@@ -6,7 +6,7 @@ function multiply($x, $y) {
 }
 
 echo "<table>";
-echo "<tr>  <tn></tn> <tn>1</tn> <tn>2</tn> <tn>3</tn> <tn>4</tn> <tn>5</tn> <tn>6</tn> <tn>7</tn> <tn>8</tn> <tn>9</tn> <tn>10</tn><tr>";
+echo "<tr>  <th></th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th> <th>7</th> <th>8</th> <th>9</th> <th>10</th><tr>";
 
 for($i=1; $i<=10; $i++)
 {
@@ -15,9 +15,9 @@ for($i=1; $i<=10; $i++)
   {
     if($j==1)
     {
-      echo "<tc><b>" . $i ."</b></tc>";
+      echo "<td><b>" . $i ."</b></td>";
     }
-    echo "<tc>" . multiply($i, $j) . "</tc>";
+    echo "<td>" . multiply($i, $j) . "</td>";
   }
   echo "</tr>";
 }

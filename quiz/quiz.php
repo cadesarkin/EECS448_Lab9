@@ -15,24 +15,24 @@
     $q5a = "56";
 
     echo "<p>Question 1: What color is the sky at night?<br>";
-    echo "You awered: " . $q1q . "<br>";
-    echo "The Correct awer: " . $q1a . "<br><br>";
+    echo "You answered: " . $q1q . "<br>";
+    echo "The Correct answer: " . $q1a . "<br><br>";
 
     echo "Question 2: What continent is the US in?<br>";
-    echo "You awered: " . $q2q . "<br>";
-    echo "The Correct awer: " . $q2a . "<br><br>";
+    echo "You answered: " . $q2q . "<br>";
+    echo "The Correct answer: " . $q2a . "<br><br>";
 
     echo "Question 3: What is the coolest major?<br>";
-    echo "You awered: " . $q3q . "<br>";
-    echo "The Correct awer: " . $q3a . "<br><br>";
+    echo "You answered: " . $q3q . "<br>";
+    echo "The Correct answer: " . $q3a . "<br><br>";
 
     echo "Question 4: Who is the best NFL team?<br>";
-    echo "You awered: " . $q4q . "<br>";
-    echo "The Correct awer: " . $q4a . "<br><br>";
+    echo "You answered: " . $q4q . "<br>";
+    echo "The Correct answer: " . $q4a . "<br><br>";
 
     echo "Question 5: What is 8x7?<br>";
-    echo "You awered: " . $q5q . "<br>";
-    echo "The Correct awer: " . $q5a . "<br><br>";
+    echo "You answered: " . $q5q . "<br>";
+    echo "The Correct answer: " . $q5a . "<br><br>";
 
     if($q1q == $q1a)
     {
