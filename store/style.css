@@ -1,0 +1,25 @@
+body
+{
+	background-color: white;
+	color: red;
+}
+
+table
+{
+	border: 1px solid black;
+	color: white;
+	background-color: red;
+}
+
+td
+{
+	border: 1px solid black;
+	background-color: white;
+}
+
+th
+{
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+}
